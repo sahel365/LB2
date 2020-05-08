@@ -67,8 +67,14 @@ docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
 
 ```
  *** 
+## Reflexion
+Des war ein spezielles Modul. Wir haben uns mit den Grundlagen von Docker und container beschäftigt. 
+Amn Anfang hat es viele Fragezeichen gegeben, die sich tagtäglich gelöst haben. Als wir wegen Corona zu Distanz-Learning gewechselt haben, hatte ich lagsam Probleme. Ich brauchte für die Aufgaben im Vergleich viel mehr Zeit und konnte ab und zu die Aufgabenstellung nicht verstehen. Dies führte meist dazu, dass ich etwas hinter der Zeitplan war.
+Heute konnnte ich nochmals mit dem Projekt GAS geben. Ich konnte ghost erfolgreich installieren und testen. Der Modul war interessant und der Inhalt auch, jedoch habe ich das Gefühl, dass wir insgesammt zu wenig Zeit hatten, um den gesammten Inhalt des Moduls zu verstehen. Ich danke Herr Berger für die Unterstützung und Geduld in diesem Modul.
+
+***
 ## Quellenangaben
-## Links
+### Links
 
 [Link Bild][1]
 

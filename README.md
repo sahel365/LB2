@@ -51,7 +51,7 @@ Ich installiere eine Linux VM via Vagrant-File aus dem Ordner Docker, den uns He
 2. Folgendes Befehl ausführen ***docker pull ghost***
 ![Bild3](3.png)
 ![Bild4](4.png)
-
+![Bild5](5.png)
 ## Portweiterleitung
 
 > Der untenstehende Befehl führt folgendes aus:

@@ -7,6 +7,8 @@
 | ------ | ------ |
 | Klasse | ST17c|
 | Projekt | Ghost |
+| Lehrperson | Marco Berger|
+| Firma | entex GmbH|
 | Version | 1.0 |
 
 
@@ -30,31 +32,34 @@
   -  Es muss dokumentiert sein, wie der Service funktioniert und benutzt werden kann.
   - Sie müssen mündlich über ihren Service Auskunft geben können.
   - Alle relevanten Files müssen auf GIT-Hub / GIT-Lab abgelegt und für die LP freigegeben sein
-
+ *** 
 ## Projektübersicht
+Mein Ziel ist einen Images meiner Wahl vom dockerhub auf meinem lokalen VM herunterzuladen. Ich werden den Container starten und derren Funktion nutzen. Dabei handelt es sich um die relativ einfache Blog Applikation Ghost.
 
+*** 
+ # Umgebung Aufbau für Container
+Ich installiere eine Linux VM via Vagrant-File und gemäss Herr Berger muss Vagrant-File nicht dokumentiert werden, weil hier Docker und Docker-Compose im Fokus steht. In der VM ist Docker schon installiert. Die VM wird wie folgt installiert:
 
-## Code
+1. Git Bash in einem Verzeichnis öffnen, dort wo sich die Vagrant-File befindet.
+2. Danach führt man den Befehl ***vagrant up*** aus.
+3. Nach der VM Installation, geht man via Befehl ***vagrant ssh*** in die VM rein.
+ 
+
+ *** 
+
+## Vorgang
+### Git Bash startet
+
 ```
-#<################################################################################################################
- # Projekt: LinuxSever mit Diensten                                                                              #
- # Modul  : M300                                                                                                 #
- # Autor  : Sahel Lahoo                                                                                          #
- # Datum  : 13.03.2020                                                                                           #
- # Firma  : Entex GmbH                                                                                           #
- # Lehrer : Marco Berger                                                                                         #
- # Version: 1.0                                                                                                  #
- #################################################################################################################
- #>
-
 #Hier wird ein Vagrant file gemacht und div. Configuration mitgegeben.
 
 
 
 ```
-> Der dritte Code konnte aus zeitlichen Gründen leider nicht erfolgreich getestet werden.
+> Kommentar
+![Webseite](Webseite.png)
 
-
+ *** 
 ## Quellenangaben
 ## Links
 [1]: https://bscw.tbz.ch/bscw/bscw.cgi/d31416536/M300_LB2_IaC.pdf "Bewertungskriterien"
@@ -62,3 +67,4 @@
 [3]: https://github.com/mc-b/M300/tree/master/vagrant/web "Webserver"
 [4]: https://github.com/mc-b/M300/tree/master/vagrant "Vagrant"
 [5]: https://github.com/mc-b/M300/tree/master/20-Infrastruktur#-09---beispiele-f%C3%BCr-lb2 "Kapitel 20"
+cd cd

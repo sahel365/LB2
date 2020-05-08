@@ -54,8 +54,8 @@ Ich installiere eine Linux VM via Vagrant-File aus dem Ordner Docker, den uns He
 ![Bild5](5.png)
 ## Portweiterleitung
 
-> Der untenstehende Befehl führt folgendes aus:
-- 
+> Zugriff vom localen PC
+- Wenn wir in der Lage sein möchten, vom Host ohne die IP des Containers auf die Instanz zuzugreifen, können wir die Standard-Port-Mappings verwenden:
 ```
 docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
 
@@ -67,9 +67,7 @@ docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
 ## Quellenangaben
 ## Links
 
-[Bewertungskriterien][1]  cd
-[Dienste][2] cd
+[Link Bild][1]
 
-[1]: https://bscw.tbz.ch/bscw/bscw.cgi/d31416536/M300_LB2_IaC.pdf "Bewertungskriterien"
-[2]: https://wiki.ubuntuusers.de/Serverdienste/ "Dienste"
+[1]: https://devopedia.org/images/article/101/8323.1565281088.png"
 

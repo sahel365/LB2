@@ -45,12 +45,19 @@ Ich installiere eine Linux VM via Vagrant-File aus dem Ordner Docker, den uns He
 2. Danach führt man den Vagrant File mit dem Befehl ***vagrant up*** aus.
 3. Sobald die Installation fertig gestellt wurde, kann man sich mit ***vagrant ssh*** in die VM einloggen.
  ![Bild1](1.png)
-##
+ ![Bild2](2.png)
+## Ghost Installieren
+1. Ghost in Docker library auswählen
+2. Folgendes Befehl ausführen ***docker pull ghost***
+![Bild3](3.png)
+![Bild4](4.png)
 
+## Portweiterleitung
+
+> Der untenstehende Befehl führt folgendes aus:
+- 
 ```
-#Hier wird ein Vagrant file gemacht und div. Configuration mitgegeben.
-
-
+docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
 
 ```
 > Kommentar
@@ -60,12 +67,9 @@ Ich installiere eine Linux VM via Vagrant-File aus dem Ordner Docker, den uns He
 ## Quellenangaben
 ## Links
 
-[Bewertungskriterien][1] 
-[Dienste][2] 
+[Bewertungskriterien][1]  cd
+[Dienste][2] cd
 
 [1]: https://bscw.tbz.ch/bscw/bscw.cgi/d31416536/M300_LB2_IaC.pdf "Bewertungskriterien"
 [2]: https://wiki.ubuntuusers.de/Serverdienste/ "Dienste"
-[3]: https://github.com/mc-b/M300/tree/master/vagrant/web "Webserver"
-[4]: https://github.com/mc-b/M300/tree/master/vagrant "Vagrant"
-[5]: https://github.com/mc-b/M300/tree/master/20-Infrastruktur#-09---beispiele-f%C3%BCr-lb2 "Kapitel 20"
-cd cd
+

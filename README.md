@@ -59,6 +59,10 @@ Ich installiere eine Linux VM via Vagrant-File aus dem Ordner Docker, den uns He
  *** 
 ## Quellenangaben
 ## Links
+
+[Bewertungskriterien][1] 
+[Dienste][2] 
+
 [1]: https://bscw.tbz.ch/bscw/bscw.cgi/d31416536/M300_LB2_IaC.pdf "Bewertungskriterien"
 [2]: https://wiki.ubuntuusers.de/Serverdienste/ "Dienste"
 [3]: https://github.com/mc-b/M300/tree/master/vagrant/web "Webserver"

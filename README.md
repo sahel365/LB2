@@ -60,9 +60,6 @@ Ich installiere eine Linux VM via Vagrant-File aus dem Ordner Docker, den uns He
 docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
 
 ```
-> Kommentar
-
-
  *** 
 ## Quellenangaben
 ## Links

@@ -37,18 +37,15 @@
 Mein Ziel ist einen Images meiner Wahl vom dockerhub auf meinem lokalen VM herunterzuladen. Ich werden den Container starten und derren Funktion nutzen. Dabei handelt es sich um die relativ einfache Blog Applikation Ghost.
 
 *** 
- # Umgebung Aufbau für Container
-Ich installiere eine Linux VM via Vagrant-File und gemäss Herr Berger muss Vagrant-File nicht dokumentiert werden, weil hier Docker und Docker-Compose im Fokus steht. In der VM ist Docker schon installiert. Die VM wird wie folgt installiert:
+## Vorgang 
+### Umgebung
+Ich installiere eine Linux VM via Vagrant-File aus dem Ordner Docker, den uns Herr Berger zur Verfügung gestellt hat. In der VM ist Docker schon installiert. Die VM wird wie folgt installiert:
 
-1. Git Bash in einem Verzeichnis öffnen, dort wo sich die Vagrant-File befindet.
-2. Danach führt man den Befehl ***vagrant up*** aus.
-3. Nach der VM Installation, geht man via Befehl ***vagrant ssh*** in die VM rein.
- 
-
- *** 
-
-## Vorgang
-### Git Bash startet
+1. Git Bash öffenen und zum gewünschten Verzeichniss navigieren
+2. Danach führt man den Vagrant File mit dem Befehl ***vagrant up*** aus.
+3. Sobald die Installation fertig gestellt wurde, kann man sich mit ***vagrant ssh*** in die VM einloggen.
+ ![Bild1](1.png)
+##
 
 ```
 #Hier wird ein Vagrant file gemacht und div. Configuration mitgegeben.
@@ -57,7 +54,7 @@ Ich installiere eine Linux VM via Vagrant-File und gemäss Herr Berger muss Vagr
 
 ```
 > Kommentar
-![Webseite](Webseite.png)
+
 
  *** 
 ## Quellenangaben

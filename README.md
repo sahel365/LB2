@@ -18,9 +18,15 @@
   
   > Projektübersicht
   
+  > Vorgang
+  
+  > Ghost installieren
+  
+  > Portweiterleitung
+  
   > Quellenverzeichnis
   
-  > Reflexion
+  > Links
 
 
 ## Aufgabe
